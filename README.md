@@ -5,7 +5,7 @@ Available in C++ and Kotlin.
 
 ## Best times for hashing, so far:
 
-* JNI C++ nativeDHash: .04secs
+* JNI C++ nativeDHash: .4secs
 
 * Kotlin dHash: 
 
