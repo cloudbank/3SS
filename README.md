@@ -1,4 +1,4 @@
-# 3SS
+# 3SS ©
 An Android dhash algorithm that does NN, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates.
 Available in C++ and Kotlin.
 
