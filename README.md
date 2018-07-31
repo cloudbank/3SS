@@ -2,7 +2,7 @@
 An Android dhash algorithm that does NN, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates.
 
 
-<img src="https://i.imgur.com/7wmLOBs.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://i.imgur.com/foXopiC.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## License
 
