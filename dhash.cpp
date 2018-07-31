@@ -1,7 +1,7 @@
 #include <jni.h>
 
 
-/**3ss algo
+/**3ss algorithm © 2018
  * scales the image using the fastest, simplest algorithm called "nearest neighbor, greyscales,
  * and fingerprints all in one*/
 extern "C" JNIEXPORT jlong JNICALL
