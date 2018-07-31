@@ -1,5 +1,5 @@
 # 3SS
-
+An Android dhash algorithm that does NN, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates.
 
 
 <img src="https://i.imgur.com/7wmLOBs.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -10,7 +10,7 @@
 
 ## Building
 
-This app was built with Android Studio which uses the gradle build system.  
+This lib was built with Android Studio which uses the gradle build system.  
 
 ## Acknowledgements
 
