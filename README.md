@@ -9,7 +9,7 @@ Available in C++ and Kotlin.
 
 * JNI C++ nativeDHash: .4secs
 
-* Kotlin dHash: 
+* Kotlin dHash: 1 sec
 
 
 <img src="https://i.imgur.com/f5jLtXl.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
