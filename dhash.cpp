@@ -1,7 +1,7 @@
 #include <jni.h>
 
 
-/**3ss algorithm © 2018
+/**3 stepsisters algo
  * scales the image using the fastest, simplest algorithm called "nearest neighbor, greyscales,
  * and fingerprints all in one*/
 extern "C" JNIEXPORT jlong JNICALL
@@ -38,11 +38,16 @@ Java_com_droidteahouse_edo_ui_ArtActivity_00024MyPreloadModelProvider_nativeDhas
                     pixel = (pixel & 0xff) * 0.299 + ((pixel >> 8) & 0xff) * 0.587 +
                             ((pixel >> 16) & 0xff) * 0.114;
                     hash |= ((pixel) < (pixel2));
+
                     hash <<= 1L;
                 }
             }
             index++;
         }
     }
+
+    env->DeleteLocalRef(db);
+    delete (newBitmapPixels);
+
     return hash;
 }
