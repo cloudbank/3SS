@@ -25,8 +25,8 @@ This lib was built with Android Studio which uses the gradle build system.
 ## Acknowledgements
 
 This project uses the [Github API] ( https://www.github.com)
-http://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html
-http://tech.jetsetter.com/2017/03/21/duplicate-image-detection/
+* http://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html
+* http://tech.jetsetter.com/2017/03/21/duplicate-image-detection/
 
 
 
