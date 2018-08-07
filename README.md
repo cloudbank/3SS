@@ -1,5 +1,5 @@
 # 3SS ©
-An Android dhash algorithm that does NN, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates.
+An Android dhash algorithm that does reduction, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates with box interpolation.  I am reworking it to use a higher quality downsizing algorithm.
 Available in C++ and Kotlin.
 
 
