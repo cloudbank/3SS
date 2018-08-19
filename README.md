@@ -1,5 +1,7 @@
 # 3SS ©
-An Android dhash algorithm that does reduction, greyscale, and fingerprint in one pass. Currently written to detect exact duplicates with box interpolation. Without higher quality downsizing it is limited to images without distortions. It is possible to extend its use for distortions by using adjunctly with an image library's downscale(e.g. Glide). I am reworking it to possibly use Haar transform or sinclanczos. I am researching reworking the whole algorithm in [3SS2B](https://github.com/cloudbank/3SS2B/) for other possibilities such as FMIQ, Radon, or Haar fingerprinting, and Deep Autoencoders.  NN is the simplest possible choice for use cases such as networking apps that consume API's with duplicates.
+An Android dhash algorithm that does reduction, greyscale, and fingerprint in one pass. Currently written to detect  duplicates with box interpolation.  While it does work when I download a large enough image (100 x 100), NN does not hold up with less pixel information for distortions.
+I plan to try Haar wavelet or sinc lanczos now that it is working across colorize distortions.
+I am researching reworking the whole algorithm in [3SS2B](https://github.com/cloudbank/3SS2B/) for other possibilities such as FMIQ and Deep Autoencoders. 
 
 Available in C++ and Kotlin.
 
@@ -8,7 +10,7 @@ Available in C++ and Kotlin.
 
 ## Best times for hashing, so far:
 
-* JNI C++ nativeDHash: .4secs
+* JNI C++ nativeDHash: ~1.7s avg
 
 * Kotlin dHash: 1 sec
 
