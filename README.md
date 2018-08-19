@@ -1,6 +1,6 @@
 # 3SS ©
-An Android dhash algorithm that does reduction, greyscale, and fingerprint in one pass. Currently written to detect  duplicates with box interpolation.  While it does work when I download a large enough image (100 x 100), NN does not hold up with less pixel information for distortions.
-I plan to try Haar wavelet or sinc lanczos now that it is working across colorize distortions.
+An Android dhash algorithm that does reduction, greyscale, and fingerprint in one pass. Currently written to detect  duplicates with box interpolation.  While it does work when I download a large enough image (100 x 100), NN does not hold up with less pixel information, for distortions.
+I plan to try Haar wavelet or sinc lanczos now that it is working across colorize changes.
 I am researching reworking the whole algorithm in [3SS2B](https://github.com/cloudbank/3SS2B/) for other possibilities such as FMIQ and Deep Autoencoders. 
 
 Available in C++ and Kotlin.
