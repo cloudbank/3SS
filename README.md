@@ -10,9 +10,9 @@ Available in C++ and Kotlin.
 
 ## Best times for hashing, so far:
 
-* JNI C++ nativeDHash: ~1.7s avg
+* JNI C++ nativeDHash: times average around .005 seconds running in Edo app
 
-* Kotlin dHash: 1 sec
+* Kotlin dHash: 1.4s
 
 
 <img src="https://i.imgur.com/f5jLtXl.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
