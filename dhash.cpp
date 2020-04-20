@@ -45,7 +45,7 @@ Java_com_droidteahouse_edo_preload_MyPreloadModelProvider_nativeDhash(
 
                 hash |= (pixel < pixel2);
                 //last shift here not wanted
-                if (index < end) {//
+                if (index < end) {
                     hash <<= 1L;
                 }
             }
@@ -53,13 +53,6 @@ Java_com_droidteahouse_edo_preload_MyPreloadModelProvider_nativeDhash(
         }
 
     }
-
-
-
-//this happens anyway but try to move it along
-    //env->DeleteLocalRef(db);
-    //delete (newBitmapPixels);
-
     return hash;
 }
 
